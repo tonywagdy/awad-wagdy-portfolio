@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Plus Jakarta Sans', 'Cairo', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Cairo', monospace;
+}
+
+:root { color-scheme: dark; }
+body { font-family: var(--font-sans); }
+[dir="rtl"] { font-family: 'Cairo', 'Plus Jakarta Sans', sans-serif; }
+button, a, input, select, textarea { -webkit-tap-highlight-color: transparent; }
+button, [role="tab"] { cursor: pointer; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible {
+  outline: 2px solid #fbbf24;
+  outline-offset: 5px;
+}
+section[id], main[id] { scroll-margin-top: 100px; }
+.skip-link { position: fixed; top: 12px; inset-inline-start: 16px; z-index: 100; transform: translateY(-180%); background: #fbbf24; color: #0b0d13; border-radius: 10px; padding: 12px 20px; font-weight: 700; }
+.skip-link:focus { transform: translateY(0); }
+.hero-section { background: radial-gradient(ellipse at 80% 25%, #f59e0b07, transparent 55%), linear-gradient(180deg, #0b0d1322, #0b0d1399); }
+.hero-grid { position: absolute; inset: 0; opacity: .17; background-image: linear-gradient(#64748b22 1px, transparent 1px), linear-gradient(90deg, #64748b22 1px, transparent 1px); background-size: 64px 64px; mask-image: linear-gradient(to bottom, black, transparent 90%); pointer-events: none; }
+.hero-title { font-size: clamp(2.5rem, 4.6vw, 4.1rem); letter-spacing: -.055em; line-height: 1.15; }
+[dir="rtl"] .hero-title { letter-spacing: -.025em; line-height: 1.55; }
+.hero-gradient { background: linear-gradient(110deg, #ffedb1 5%, #fbbf24 50%, #d59536 95%); background-clip: text; -webkit-background-clip: text; color: transparent; }
+.premium-button { display: inline-flex; align-items: center; justify-content: center; gap: 12px; padding: 15px 22px; min-height: 50px; border-radius: 12px; font-size: 13px; font-weight: 700; transition: transform .25s, box-shadow .25s, background .25s, border-color .25s; }
+.premium-button-primary { background: #fbbf24; color: #15110a; border: 1px solid #fcd34d; box-shadow: 0 5px 24px #f59e0b15; }
+.premium-button-secondary { background: #ffffff03; border: 1px solid #ffffff20; color: #e2e8f0; }
+.premium-button:hover { transform: translateY(-3px); }
+.premium-button-primary:hover { background: #fcd34d; box-shadow: 0 8px 30px #f59e0b25; }
+.premium-button-secondary:hover { border-color: #fbbf2460; background: #ffffff08; }
+.premium-button:active { transform: translateY(0); }
+.studio-panel { background: linear-gradient(140deg, #171c28f5, #0e111afc); }
+.studio-glow { position: absolute; inset: 15% 8%; background: #f59e0b12; filter: blur(75px); border-radius: 50%; pointer-events: none; }
+.code-window { background: #080b12b3; min-height: 198px; }
+main > section:not(.hero-section) { position: relative; }
+main > section:not(.hero-section) h2 { text-wrap: balance; }
+.section-enter { animation: sectionReveal .8s cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes sectionReveal { from { opacity: .15; translate: 0 30px; } to { opacity: 1; translate: 0 0; } }
+@media (min-width: 1024px) { main > section:not(.hero-section) { padding-block: 100px; } }
+@media (max-width: 380px) { .premium-button { width: 100%; } .hero-title { font-size: 2.15rem; } }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto !important; }
+  *, *::before, *::after { animation-duration: .01ms !important; animation-iteration-count: 1 !important; transition-duration: .01ms !important; scroll-behavior: auto !important; }
+  .section-enter { animation: none; }
+}
+@media print {
+  .skip-link { display: none; }
+  .app-shell:has(.cv-modal-overlay) > *:not(.cv-modal-overlay) { display: none !important; }
+  .cv-modal-overlay { position: static !important; display: block !important; background: none !important; backdrop-filter: none !important; padding: 0 !important; overflow: visible !important; }
+  .cv-modal-sheet { max-height: none !important; border: 0 !important; box-shadow: none !important; }
+  .cv-modal-sheet > div { overflow: visible !important; }
+}
+
+
+/* Global Mobile & Overflow Guards to prevent any viewport stretching */
+html, body {
+  overflow-x: clip;
+  max-width: 100vw;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-text-size-adjust: 100%;
+}
+
+#root {
+  overflow-x: clip;
+  max-width: 100vw;
+  width: 100%;
+  min-width: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Ensure text wrapping on mobile so long technical strings never push layout */
+p, h1, h2, h3, h4, h5, h6, span, div, a {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* Prevent image / media overflow */
+img, svg, video, canvas, iframe {
+  max-width: 100%;
+}
+
+/* Custom scrollbar styling */
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

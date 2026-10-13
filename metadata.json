@@ -1,0 +1,8 @@
+{
+  "name": "Portfolio app",
+  "description": "Professional Portfolio & Interactive CV of Awad Wagdy Awad – Full-Stack Software Engineer, Custom Desktop Systems Specialist (Offline & Online), and Computer Vision & LiDAR QA Expert.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
