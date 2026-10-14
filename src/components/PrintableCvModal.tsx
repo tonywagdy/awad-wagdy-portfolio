@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 import { Language } from '../types';
 import { PERSONAL_INFO } from '../data/cvData';
-import { X, Printer, Mail, Phone, MapPin } from 'lucide-react';
+import { X, Download, Mail, Phone, MapPin } from 'lucide-react';
 
 interface CvModalProps {
   lang: Language;
@@ -48,7 +48,14 @@ export function PrintableCvModal({ lang, onClose }: CvModalProps) {
           </div>
 
           <div className="flex items-center gap-2">
-            <button
+                        <a
+                                          href="/Awad-Wagdy-CV.pdf"
+                                          download="Awad-Wagdy-CV.pdf"
+                                          className="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer shadow-md no-underline"
+                                        >
+                          <Download className="w-3.5 h-3.5" />
+                          <span>{isAr ? 'تحميل السيرة الذاتية (PDF)' : 'Download CV (PDF)'}</span>span>
+            </aa></a>utton
               type="button"
               onClick={() => window.print()}
               className="px-3.5 py-1.5 rounded-lg bg-amber-500 hover:bg-amber-400 text-slate-950 text-xs font-bold flex items-center gap-1.5 transition-all cursor-pointer shadow-md"
