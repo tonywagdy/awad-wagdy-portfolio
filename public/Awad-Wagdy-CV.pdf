@@ -1,0 +1,99 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Resources << /Font << /F1 4 0 R /F2 5 0 R >> >> /Contents 6 0 R >>
+endobj
+4 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Length 6893 >>
+stream
+BT /F2 18 Tf 0.06 0.09 0.16 rg 42 795.0 Td (AWAD WAGDY AWAD) Tj ET
+BT /F2 9.5 Tf 0.71 0.33 0.04 rg 42 779.0 Td (Full-Stack Software Engineer & Desktop Systems Specialist \(Offline & Online\) | Computer Vision & LiDAR QA Expert) Tj ET
+BT /F1 8.6 Tf 0.28 0.33 0.41 rg 42 765.0 Td (Email: twagdy067@gmail.com  |  Phone: +20 120 233 2355  |  Location: Ain Shams, Cairo, Egypt  |  Web: awad-wagdy-portfolio.vercel.app) Tj ET
+1.2 w 0.06 0.09 0.16 RG 42 755.0 m 553 755.0 l S
+BT /F2 10.5 Tf 0.06 0.09 0.16 rg 42 739.0 Td (PROFESSIONAL SUMMARY) Tj ET
+0.6 w 0.80 0.83 0.86 RG 42 734.0 m 553 734.0 l S
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 721.0 Td (Software Engineer and Quality Assurance professional specialized in two high-impact tracks: Track 1 - Custom) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 707.8 Td (Desktop Systems & Full-Stack Web: Architecting and delivering robust standalone desktop applications \(both 100%) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 694.6 Td (offline-first with zero-latency embedded SQLite databases and cloud-synchronized online systems\) tailored for) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 681.4 Td (enterprise and commercial businesses \(e.g., AL FARES ERP & POS Suite\), alongside high-converting commercial web) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 668.2 Td (platforms and digital interactive flipbooks \(e.g., Al-Amin Pergolas official platform and catalog\). Track 2 -) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 655.0 Td (Computer Vision, LiDAR Point Clouds & Perception QA: Strengthening autonomous vehicle deep learning datasets) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 641.8 Td (through rigorous 2D/3D cuboid audits, LiDAR 3D point cloud labeling, and dense semantic segmentation validation) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 628.6 Td (at Micro Engineering Egypt.) Tj ET
+BT /F2 10.5 Tf 0.06 0.09 0.16 rg 42 608.4 Td (WORK EXPERIENCE) Tj ET
+0.6 w 0.80 0.83 0.86 RG 42 603.4 m 553 603.4 l S
+BT /F2 9.6 Tf 0.06 0.09 0.16 rg 42 590.4 Td (Quality Control Technician | MICRO ENGINEERING EGYPT) Tj ET
+BT /F2 9.2 Tf 0.71 0.33 0.04 rg 475 590.4 Td (10/2025 - Present) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 576.9 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 576.9 Td (Checked annotation outputs for consistency with task instructions before final approval.) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 563.7 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 563.7 Td (Identified precision labeling errors and flagged ambiguous corner cases for engineering rework.) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 550.5 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 550.5 Td (Compared multi-sensor outputs against raw LiDAR 3D point clouds to verify spatial accuracy.) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 537.3 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 537.3 Td (Documented recurring quality error modes and shared benchmark reports with the team.) Tj ET
+BT /F2 9.6 Tf 0.06 0.09 0.16 rg 42 519.1 Td (Data Labeling Quality Assurance Specialist | MICRO ENGINEERING EGYPT) Tj ET
+BT /F2 9.2 Tf 0.71 0.33 0.04 rg 475 519.1 Td (2024 - 09/2025) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 505.6 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 505.6 Td (Audited and refined 2D/3D bounding boxes, LiDAR point cloud tracks, and semantic segmentation masks.) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 492.4 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 492.4 Td (Enforced quality inspection gates to maintain 99%+ accuracy across project batches.) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 479.2 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 479.2 Td (Validated 2D and 3D bounding box orientations, yaw angles, and bounding contours for vehicles and) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 466.0 Td (pedestrians.) Tj ET
+BT /F2 9.6 Tf 0.06 0.09 0.16 rg 42 447.8 Td (Data Labeling Specialist | MICRO ENGINEERING EGYPT) Tj ET
+BT /F2 9.2 Tf 0.71 0.33 0.04 rg 475 447.8 Td (2023 - 2024) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 434.3 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 434.3 Td (Annotated visual and sensor data for autonomous driving deep learning models.) Tj ET
+BT /F2 9.2 Tf 0.06 0.09 0.16 rg 48 421.1 Td (-) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 58 421.1 Td (Executed scene classification, road free-space segmentation, and static/dynamic object tagging.) Tj ET
+BT /F2 10.5 Tf 0.06 0.09 0.16 rg 42 400.9 Td (KEY DELIVERED SOFTWARE SYSTEMS) Tj ET
+0.6 w 0.80 0.83 0.86 RG 42 395.9 m 553 395.9 l S
+BT /F2 9.4 Tf 0.06 0.09 0.16 rg 42 382.9 Td (AL FARES ERP & POS Integrated Desktop Suite:) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 369.9 Td (Complete commercial desktop application built with 10 production modules: POS barcode cashier terminal, live) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 356.7 Td (profit & loss analytics, warehouse inventory balance audit, supplier purchases, customer debt accounts with) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 343.5 Td (credit limits, daily treasury disbursements, and automatic PDF receipt archiving. 100% offline-first.) Tj ET
+BT /F2 9.4 Tf 0.06 0.09 0.16 rg 42 326.3 Td (Al-Amin Pergolas Commercial Web Platform:) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 313.3 Td (Bespoke architectural showcase website featuring high-performance architectural galleries, responsive modern) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 300.1 Td (layout, and direct WhatsApp quote generation.) Tj ET
+BT /F2 9.4 Tf 0.06 0.09 0.16 rg 42 282.9 Td (Al-Amin Interactive Digital Flipbook Catalog:) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 269.9 Td (Interactive digital flipbook catalog application with realistic 3D book turning, wood frame design portfolio,) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 256.7 Td (lightbox zoom, and instant quote inquiry.) Tj ET
+BT /F2 10.5 Tf 0.06 0.09 0.16 rg 42 236.5 Td (EDUCATION & CREDENTIALS) Tj ET
+0.6 w 0.80 0.83 0.86 RG 42 231.5 m 553 231.5 l S
+BT /F2 9.6 Tf 0.06 0.09 0.16 rg 42 218.5 Td (Bachelor of Management Information Systems \(MIS\) | Taibah Integrated Science Academy) Tj ET
+BT /F2 9.2 Tf 0.71 0.33 0.04 rg 475 218.5 Td (Jan 2022) Tj ET
+BT /F2 10.5 Tf 0.06 0.09 0.16 rg 42 198.0 Td (CORE TECHNICAL SKILLS & TOOLS) Tj ET
+0.6 w 0.80 0.83 0.86 RG 42 193.0 m 553 193.0 l S
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 180.0 Td (Desktop & Web Development: Custom Desktop Apps \(Offline & Online\), SQLite Local Database, Role-Based Access) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 166.8 Td (Control \(RBAC\), POS Thermal ESC/POS Printers, Barcode Scanners, React, TypeScript, Tailwind CSS, REST APIs.) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 150.6 Td (Computer Vision & QA: 3D LiDAR Point Clouds, 2D/3D Bounding Boxes, Semantic Segmentation, Sensor Fusion, Error) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 137.4 Td (Taxonomy, Dataset Benchmarking.) Tj ET
+BT /F1 9.2 Tf 0.15 0.20 0.28 rg 42 121.2 Td (Platforms & Tools: CVAT, Labelbox, Scale AI, Apollo Auto, Git, GitHub, JIRA, Python Scripting.) Tj ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000000321 00000 n 
+0000000396 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+7341
+%%EOF
